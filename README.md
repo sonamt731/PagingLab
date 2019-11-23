@@ -26,3 +26,5 @@ The random-numbers.txt file must be within the same directory.
 Based on the replacement algorithm entered, the code will either call LRU, Random, or FIFO. 
 
 
+Command Line Arguments should be ordered in the order M P S J N R
+My code does not have the debug extra command.
