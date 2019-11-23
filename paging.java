@@ -352,7 +352,7 @@ public class paging {
 		for (int i: processes.keySet()) {
 			process curr = processes.get(i);
 
-			System.out.print("\nProcess "+ i+ " had "+ curr.pageFaults + " faults");
+			System.out.print("Process "+ i+ " had "+ curr.pageFaults + " faults");
 			totalFaults+=curr.pageFaults;
 			
 			process current = processes.get(i);
